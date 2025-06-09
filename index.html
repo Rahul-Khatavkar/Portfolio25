@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rahul Khatavkar N B Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <ul>
+      <li><a href="#about" class="nav-link active">About Me</a></li>
+      <li><a href="#youtube" class="nav-link">YouTube Channels</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#social" class="nav-link">Social Media</a></li>
+      <li><a href="#contact" class="nav-link">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- First Screen: Name + Buttons -->
+<header class="header-section">
+  <h1 class="main-name">Rahul Khatavkar N B</h1>
+  <div class="resume-buttons">
+    <a href="assets/Rahul_Resume.pdf" target="_blank">
+      <button class="btn btn-view">Download Resume</button>
+    </a>
+  </div>
+</header>
+
+
+  <!-- About Me Section -->
+  <section id="about" class="section about-section">
+    <h2 class="section-title hover-animate">About Me</h2>
+    <p class="about-text">
+      I am a passionate developer, gamer, and YouTuber who loves creating engaging web experiences.
+    </p>
+  </section>
+
+  <!-- YouTube Channels Section (Zig-Zag Boxes) -->
+<section id="youtube" class="section youtube-section">
+  <div class="zigzag-container">
+    <div class="video-card left-card">
+      <div class="video-box">
+        <!-- Embedded YouTube Video 1 -->
+        <iframe
+          class="video-iframe"
+          src="https://www.youtube.com/embed/8Ry-t-sxyp0"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <h3 class="channel-name">@ValarMorghulis</h3>
+      </div>
+    </div>
+     <!-- Embedded YouTube Video 2 -->
+    <div class="video-card right-card">
+      <div class="video-box">
+        <iframe
+          class="video-iframe"
+          src="https://www.youtube.com/embed/2zAbL5naI_A"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <h3 class="channel-name">@NPR COOK-KING</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2 class="projects-title">Projects</h2>
+  <div class="projects-container">
+    <div class="project-box">
+      <h3 class="project-title"> Music Player</h3>
+      <p class="project-description">
+        A responsive music player includes dynamic background changes, song title display, and interactive playlist UI with audio controls.
+      </p>
+      <a href="https://github.com/Rahul-Khatavkar/Music-Player" target="_blank" class="project-link-btn">View Project</a>
+    </div>
+    <div class="project-box">
+      <h3 class="project-title">Ping Pong Game</h3>
+      <p class="project-description">
+         A browser-based ping pong game developed with JavaScript and canvas, featuring keyboard controls, score tracking, and dynamic difficulty.
+      </p>
+      <a href="https://github.com/Rahul-Khatavkar/Ping-Pong-Ball-Game" target="_blank" class="project-link-btn">View Project</a>
+    </div>
+    <div class="project-box">
+      <h3 class="project-title">Video Editing</h3>
+      <p class="project-description">
+        Edited high-quality food and gaming content for YouTube channels.Utilized professional tools like DaVinci Resolve 18 and Canva. 
+      </p>
+      <a href="https://www.youtube.com/@NPRCOOKKING" target="_blank" class="project-link-btn">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="skills-title">Skills</h2>
+  <div class="skills-container">
+    <div class="skill-box" style="background-color: #f87171;">HTML</div>
+    <div class="skill-box" style="background-color: #60a5fa;">CSS</div>
+    <div class="skill-box" style="background-color: #34d399;">JavaScript</div>
+    <div class="skill-box" style="background-color: #fbbf24;">ReactJs</div>
+    <div class="skill-box" style="background-color: #a78bfa;">Node.js</div>
+    <div class="skill-box" style="background-color: #f472b6;">MongoDB</div>
+    <div class="skill-box" style="background-color: #38bdf8;">Git & GitHub</div>
+    <div class="skill-box" style="background-color: #facc15;">Microsoft SQL</div>
+     <div class="skill-box" style="background-color: #cd8417;">Davinci Resolve 18</div>
+  </div>
+</section>
+
+
+  <!-- Social Media Section -->
+  <section id="social" class="section social-section">
+    <h2 class="section-title">Social Media</h2>
+    <div class="social-icons">
+      <a href="https://x.com/1815_rahul" class="social-icon twitter" target="_blank" aria-label="Twitter"></a>
+      <a href="https://www.linkedin.com/in/rahul-khatavkar-a8487920a/" class="social-icon linkedin" target="_blank" aria-label="LinkedIn"></a>
+      <a href="https://www.facebook.com/rahul.knb/" class="social-icon facebook" target="_blank" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/rahul_khatavkar_/" class="social-icon instagram" target="_blank" aria-label="Instagram"></a>
+      <a href="https://github.com/Rahul-Khatavkar" class="social-icon github" target="_blank" aria-label="GitHub"></a>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-send">Send</button>
+    </form>
+  </section>
+
+ <!-- Memory Section -->
+<section id="memory" class="section memory-section">
+  <h2 class="section-title">In loving memory of my beloved "MINCHU"</h2>
+  <div class="memory-container">
+    <div class="memory-photo-frame glowing-frame">
+      <img src="images/DSC_3636.JPG" alt="My Dog" />
+    </div>
+    <div class="memory-details">
+      <div class="memory-box dod-box fade-in">
+        <strong></strong> 6 Aug 2024
+      </div>
+      <p class="memory-quote">You are the most beautiful part of my life </p>
+      <p class="memory-quote">You'll always remain in my heart❤️🐾 </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Rahul Khatavkar. All rights reserved.</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
